@@ -67,6 +67,14 @@ body {
 	font-family: 'Ubuntu', sans-serif;
 }
 
+.titulo-sobre {
+	text-align: center;
+	color: #DBDBDB;
+	margin-bottom: 28px;
+	text-shadow: 1.3px 1.3px black;
+	font-family: 'Ubuntu', sans-serif;
+}
+
 .cursos {
 	background-color: #DBDBDB; 
 	width: 60%;
@@ -97,6 +105,27 @@ body {
 
 .conteudo-detalhes > p {
 	font-size: 1.23rem;
+}
+
+.sobre-detalhes {
+	padding: 5px 25px 5px 25px;
+	background-color: #DBDBDB; 
+	border: 4px solid black;
+	box-shadow: inset 0 0 12px #000000;
+	width: 70%;
+	margin: 0 auto;
+	margin-bottom: 30px;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+.sobre-detalhes > p {
+	text-align: justify;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.sobre-url {
+	color: black;
 }
 
 .cursos > h2 {
@@ -255,5 +284,10 @@ span {
     }
     .livros > p:last-child {
 		text-align: center;
+	}
+	.sobre-detalhes > p {
+		text-align: center;
+		margin-left: 7.5px;
+		margin-right: 7.5px;
 	}
 }
