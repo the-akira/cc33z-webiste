@@ -1,0 +1,11 @@
+{% extends 'base.html' %} 
+{% load static %}
+
+{% block content %}
+<div class="conteudo-detalhes">
+	<h1>{{ curso.nome }}</h1>
+	<p>{{ curso.info }}</p>
+	<h2>Conteúdo do Curso</h2>
+	<p>{{ curso.conteudo | safe | linebreaks }}</p>
+</div>
+{% endblock content %}

@@ -1,0 +1,18 @@
+{% extends "base.html" %} 
+{% load static %}
+
+{% block content %}
+<h1 class="lista-titulo">Lista de Cursos Específicos</h1>
+<div>
+    {% for curso in curso_list %}
+    <div class="cursos">
+    	<hr>
+        <img src="{{ curso.icone }}">
+        <hr>
+        <h2>{{ curso.nome }}</h2>
+        <a href="{% url 'curso_detalhes' curso.slug  %}"><i class="fas fa-search-plus fa-3x"></i></a>
+        <a class="detalhes" href="{% url 'curso_detalhes' curso.slug  %}">Ver Detalhes</a>
+    </div>
+    {% endfor %}
+</div>
+{% endblock content %}

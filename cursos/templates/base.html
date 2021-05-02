@@ -1,0 +1,36 @@
+{% load static %}
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Ciência da Computação 33Z</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+        <link rel="stylesheet" href="{% static 'css/styles.css' %}">
+        <script src="https://kit.fontawesome.com/abb211c046.js"></script>
+    </head>
+    <body>
+        <!-- Header -->
+        <header>
+            <a class="main-title" href="{% url 'home' %}">Ciência da Computação <b>33Z</b></a>
+            {% with url_name=request.resolver_match.url_name %}
+                <nav class="navbar">
+                    <a class="{% if request.resolver_match.view_name == 'home' %}active{% endif %}" href="{% url 'home' %}">Home</a>
+                    <a class="{% if request.resolver_match.view_name == 'livros' %}active{% endif %}" href="{% url 'livros' %}">Bibliografia</a>
+                    <a href="#">Pensamentos</a>
+                    <a href="#">Sobre</a>
+                </nav>
+            {% endwith %}
+            <img class="main-image" src="{% static 'images/cc33z.jpg' %}">
+            <p class="main-text">Seja bem-vindo ao curso de Ciência da Computação <b>33Z</b>, este que visa lhe ensinar os conceitos mais importantes do Universo dos Computadores.</p>
+        </header>
+        <!-- Content -->
+        {% block content %}
+        {% endblock content %}
+        <!-- Footer -->
+        <footer>
+            <p class="footer-text">Desenvolvido por Gabriel Felippe</p>
+            <a class="icon" href="https://github.com/the-akira/CC33Z" target="_blank"><i class="fab fa-github fa-2x"></i></a>
+            <a class="icon" href="https://twitter.com/akirascientist" target="_blank"><i class="fab fa-twitter fa-2x"></i></a>
+        </footer>
+    </body>
+</html>
