@@ -118,8 +118,9 @@ body {
 
 .footer-text {
 	margin-top: 2px;
-	font-size: 1.25rem;
+	font-size: 1.23rem;
 	font-weight: bold;
+	font-family: 'Ubuntu', sans-serif;
 }
 
 .detalhes {
@@ -252,4 +253,7 @@ span {
     	width: 80%;
     	height: auto;
     }
+    .livros > p:last-child {
+		text-align: center;
+	}
 }
