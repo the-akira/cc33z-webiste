@@ -16,7 +16,7 @@
                 <nav class="navbar">
                     <a class="{% if request.resolver_match.view_name == 'home' %}active{% endif %}" href="{% url 'home' %}">Home</a>
                     <a class="{% if request.resolver_match.view_name == 'livros' %}active{% endif %}" href="{% url 'livros' %}">Bibliografia</a>
-                    <a href="#">Pensamentos</a>
+                    <a class="{% if request.resolver_match.view_name == 'pensamentos' %}active{% endif %}" href="{% url 'pensamentos' %}">Pensamentos</a>
                     <a href="#">Sobre</a>
                 </nav>
             {% endwith %}

@@ -17,6 +17,7 @@ import os
 BASE_DIR = Path(__file__).resolve().parent.parent
 TEMPLATES_CURSOS = os.path.join(BASE_DIR,'cursos/templates')
 TEMPLATES_LIVROS = os.path.join(BASE_DIR,'bibliografia/templates')
+TEMPLATES_PENSAMENTOS = os.path.join(BASE_DIR,'pensamentos/templates')
 
 
 # Quick-start development settings - unsuitable for production
@@ -43,6 +44,7 @@ INSTALLED_APPS = [
     'markdownx',
     'cursos',
     'bibliografia',
+    'pensamentos',
 ]
 
 MIDDLEWARE = [
@@ -60,7 +62,7 @@ ROOT_URLCONF = 'cc33z.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [TEMPLATES_CURSOS, TEMPLATES_LIVROS],
+        'DIRS': [TEMPLATES_CURSOS, TEMPLATES_LIVROS, TEMPLATES_PENSAMENTOS],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [

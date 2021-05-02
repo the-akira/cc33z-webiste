@@ -5,5 +5,6 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('markdownx/', include('markdownx.urls')),
     path('', include('bibliografia.urls')),
+    path('', include('pensamentos.urls')),
     path('', include('cursos.urls')),
 ]
