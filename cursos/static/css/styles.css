@@ -241,6 +241,60 @@ footer {
 	color: #4EF5F9 !important;
 }
 
+.contato-form > div > input {
+	display: block;
+	margin: 0 auto;
+	margin-top: 8px;
+	margin-bottom: 8px;
+	width: 70%;
+	height: 40px;
+	border: 2px solid black;
+	background-color: #2f3136;
+	color: #4EF5F9;
+	border-radius: 8px;
+	font-size: 24px;
+}
+
+.contato-form > div > input::placeholder {
+	color: #4EF5F9;
+}
+
+.contato-form > div > textarea {
+	display: block;
+	margin: 0 auto;
+	margin-top: 8px;
+	margin-bottom: 8px;
+	resize: none;
+	width: 70%;
+	height: 200px;
+	border: 2px solid black;
+	background-color: #2f3136;
+	color: #4EF5F9;
+	border-radius: 8px;
+	font-size: 24px;
+}
+
+.contato-form > div > textarea::placeholder {
+	color: #4EF5F9;
+}
+
+.contato-form > div > label {
+	font-family: 'Ubuntu', sans-serif;	
+	font-size: 1.11rem;
+}
+
+.contato-btn {
+	width: 25%;
+	margin-top: 17px;
+	padding: 10px;
+	border: 4px solid black;
+	font-size: 1.4rem;
+	background-color: #2f3136;
+	color: #DBDBDB;
+	font-family: 'Ubuntu', sans-serif;	
+	cursor: pointer;
+}
+
 span { 
 	font-weight: bold;
 }
@@ -289,5 +343,8 @@ span {
 		text-align: center;
 		margin-left: 7.5px;
 		margin-right: 7.5px;
+	}
+	.contato-btn {
+		width: 45%;
 	}
 }

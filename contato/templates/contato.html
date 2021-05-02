@@ -1,0 +1,27 @@
+{% extends "base.html" %} 
+{% load static %}
+
+{% block content %}
+<h1 class="lista-titulo">Entre em Contato</h1>
+<div>
+    <div class="livros">
+        <h2>Preencha o formulário a seguir com os seus dados</h2>
+        <form class="contato-form" action="/contato/" method="POST">
+        	{% csrf_token %}
+        	<div>
+        		<label for="nome">Nome Completo</label>
+        		<input type="text" name="nome" placeholder="Seu Nome">
+        	</div>
+        	<div>
+        		<label for="email">Endereço de Email</label>
+        		<input type="text" name="email" placeholder="Seu Email">
+        	</div>
+        	<div>
+        		<label for="mensagem">Deixe sua Mensagem</label>
+        		<textarea name="mensagem" rows="3" placeholder="Sua Mensagem"></textarea>
+        	</div>
+        	<input class="contato-btn" type="submit" value="Enviar">
+        </form>
+    </div>
+</div>
+{% endblock content %}

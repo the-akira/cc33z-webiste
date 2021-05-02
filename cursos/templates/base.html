@@ -18,6 +18,7 @@
                     <a class="{% if request.resolver_match.view_name == 'livros' %}active{% endif %}" href="{% url 'livros' %}">Bibliografia</a>
                     <a class="{% if request.resolver_match.view_name == 'pensamentos' %}active{% endif %}" href="{% url 'pensamentos' %}">Pensamentos</a>
                     <a class="{% if request.resolver_match.view_name == 'sobre' %}active{% endif %}" href="{% url 'sobre' %}">Sobre</a>
+                    <a class="{% if request.resolver_match.view_name == 'contato' %}active{% endif %}" href="{% url 'contato' %}">Contato</a>
                 </nav>
             {% endwith %}
             <img class="main-image" src="{% static 'images/cc33z.jpg' %}">

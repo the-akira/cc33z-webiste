@@ -6,5 +6,6 @@ urlpatterns = [
     path('markdownx/', include('markdownx.urls')),
     path('', include('bibliografia.urls')),
     path('', include('pensamentos.urls')),
+    path('', include('contato.urls')),
     path('', include('cursos.urls')),
 ]
