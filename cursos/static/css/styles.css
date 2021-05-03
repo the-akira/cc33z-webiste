@@ -295,6 +295,14 @@ footer {
 	cursor: pointer;
 }
 
+.contato-btn:hover {
+	background-color: black;
+}
+
+.contato-text {
+	font-family: 'Ubuntu', sans-serif;
+}
+
 span { 
 	font-weight: bold;
 }
