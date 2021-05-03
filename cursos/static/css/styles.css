@@ -255,6 +255,15 @@ footer {
 	font-size: 24px;
 }
 
+.contato-form > div > input:-webkit-autofill,
+.contato-form > div > input:-webkit-autofill:hover, 
+.contato-form > div > input:-webkit-autofill:focus, 
+.contato-form > div > input:-webkit-autofill:active
+{
+	-webkit-box-shadow: 0 0 0 30px #2f3136 inset !important;
+	-webkit-text-fill-color: #4EF5F9 !important;
+}
+
 .contato-form > div > input::placeholder {
 	color: #4EF5F9;
 }
