@@ -63,7 +63,7 @@
 - Queues
 - Hash Table
 - Grafos
-- As Sete Pontes de Königsber
+- As Sete Pontes de Königsberg
 - Trees
 - Binary Trees
 - Binary Search Trees
