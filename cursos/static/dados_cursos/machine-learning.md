@@ -1,0 +1,90 @@
+# Machine Learning
+
+**Ícone**: ![img](https://i.imgur.com/pTzTNxd.png)
+
+**Descrição**: Este curso é uma introdução ao Machine Learning que oferece uma visão geral de muitos conceitos, técnicas e algoritmos em Machine Learning, começando com tópicos como classificação e regressão linear e terminando com tópicos mais recentes como random forests e support vector machines. O curso dará ao estudante as ideias básicas e a intuição por trás dos métodos modernos de Machine Learning, bem como um entendimento um pouco mais formal de como, por que e quando eles funcionam.
+
+## Conteúdo do Curso 
+
+- O que é Machine Learning?
+- Filtro de Spam
+- Por que Usar Machine Learning?
+- Abordagem Tradicional
+- Dificuldade do Problema
+- Abordagem de Machine Learning
+- Adaptação Automática à Mudança
+- Machine Learning vs Programação Tradicional
+- Aprendendo a Detectar Spam
+- Aplicações de Machine Learning
+- Machine Learning é Interdisciplinar
+- Elementos Chaves de Machine Learning
+- História do Machine Learning
+- Data Mining
+- Teoria de Machine Learning
+- Bias-variance Tradeoff
+- Tipos de Sistemas de Machine Learning
+- Supervised & Unsupervised Learning
+- Supervised Learning
+- Problema de Regressão
+- Algoritmos de Supervised Learning
+- Unsupervised Learning
+- Algoritmos de Unsupervised Learning
+- Anomaly Detection
+- Association Rule Learning
+- Semisupervised Learning
+- Reinforcement Learning
+- Batch & Online Learning
+- Batch Learning
+- Online Learning
+- Instance-Based vs Model-Based Learning
+- Instance-Based Learning
+- Model-Based Learning
+- A Palavra “Modelo”
+- Sumarizando
+- Desafios de Machine Learning
+- Quantidade Insuficiente de Dados
+- The Unreasonable Effectiveness of Data
+- Dados Não Representativos
+- Dados de Baixa Qualidade
+- Features Irrelevantes
+- Overfitting
+- Underfitting
+- Revisando
+- Testando e Validando
+- Ajuste de Hiperparâmetros e Seleção de Modelo
+- Incompatibilidade de Dados
+- No Free Lunch Theorem
+- Machine Learning na Prática
+- Aprendizagem Indutiva
+- Essência da Aprendizagem Indutiva
+- Principais Problemas de Machine Learning
+- Terminologia de Machine Learning
+- Modelos
+- O Algoritmo K-Nearest Neighbors
+- Support-vector Machines
+- Support-vector Clustering
+- Decision Trees
+- Random Forest
+- Regressão Logística
+- Redes Neurais Artificiais
+- Algoritmos de Machine Learning
+- Métricas de Machine Learning
+- Confusion Matrix
+- Accuracy
+- Precision
+- Recall
+- F1 Score
+- Métricas para Classificação Desequilibrada
+- ROC
+- Métricas Relacionadas à Regressão
+- Mean Squared Error (MSE)
+- Mean Absolute Error (MAE)
+- O Algoritmo Gradient Descent
+- Ferramentas de Machine Learning
+- Scikit-Learn
+- Tensorflow
+- PyTorch
+- H2O
+- Weka
+- KNIME
+- Considerações Finais
