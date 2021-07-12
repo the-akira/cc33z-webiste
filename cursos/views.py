@@ -11,4 +11,4 @@ class CursoDetail(generic.DetailView):
     template_name = 'curso_detalhes.html'
 
 def sobre(request):
-	return render(request, 'sobre.html')
+    return render(request, 'sobre.html')
