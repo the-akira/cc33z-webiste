@@ -401,15 +401,15 @@ span {
   }
 }
 
-@media screen and (max-width: 640px) {
-  .paginas{
+@media screen and (max-width: 680px) {
+  .paginas {
     display: flex;
     flex-wrap: wrap;
     margin-top: 30px;
     margin-bottom: 30px;
     justify-content: center;
   }
-  .paginas > a{
+  .paginas > a {
     margin-top: 8px;
     margin-right: 5px;
   }
