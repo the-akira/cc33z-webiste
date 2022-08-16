@@ -6,6 +6,7 @@
     <h1>{{ curso.nome }}</h1>
     <p>{{ curso.info }}</p>
     <h2>Conteúdo do Curso</h2>
+    <div><a class="material-download" href="{{ curso.material }}">Download</a></div>
     <p>{{ curso.conteudo | safe | linebreaks }}</p>
 </div>
 {% endblock content %}
