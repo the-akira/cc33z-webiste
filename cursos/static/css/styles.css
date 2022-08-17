@@ -42,6 +42,10 @@ body {
   padding-left: 20px;
 }
 
+.material-download-container {
+  margin-bottom: 30px;
+}
+
 .material-download {
   border: 2px solid black;
   font-size: 1.25rem;
