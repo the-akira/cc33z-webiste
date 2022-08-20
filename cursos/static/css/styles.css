@@ -233,6 +233,7 @@ footer {
   font-size: 2rem;
   padding-right: 30px;
   padding-left: 30px;
+  margin-top: 2.5px;
 }
 
 .livros > img {
@@ -244,6 +245,7 @@ footer {
   font-size: 1.15rem;
   margin-right: 50px;
   margin-left: 50px;
+  margin-bottom: 8px;
 }
 
 .livros > p:last-child {
