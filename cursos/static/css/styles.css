@@ -272,6 +272,10 @@ footer {
   color: #4EF5F9 !important;
 }
 
+.contato-form {
+  margin-bottom: 8px;
+}
+
 .contato-form > div > input {
   display: block;
   margin: 0 auto;
@@ -343,6 +347,7 @@ footer {
   font-family: 'Ubuntu', sans-serif;
   padding-right: 30px;
   padding-left: 30px;
+  margin-top: 2.5px;
 }
 
 span { 
