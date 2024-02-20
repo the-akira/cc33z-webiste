@@ -1,1 +1,0 @@
-web: gunicorn cc33z.wsgi

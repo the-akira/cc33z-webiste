@@ -159,11 +159,11 @@ body {
   padding-left: 30px;
 }
 
-.fa-search-plus, .fa-twitter, .fa-github {
+.fa-search-plus, .fa-globe, .fa-github {
   color: black;
 }
 
-.fa-search-plus:hover, .fa-twitter:hover, .fa-github:hover {
+.fa-search-plus:hover, .fa-globe:hover, .fa-github:hover {
   color: #2f3136;
 }
 
